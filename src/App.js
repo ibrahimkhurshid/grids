@@ -1,55 +1,19 @@
 import './App.css';
 
 function App() {
-return (
-<div className="container">
-  <div className="item">
-    <div className="direct-child"></div>
-    <div className="direct-child"></div>
-    <div className="direct-child"></div>
-    <div className="direct-child"></div>
-    <div className="direct-child"></div>
-    <div className="direct-child"></div>
-  </div>
-  <div className="item"></div>
-  <div className="item"></div>
-  <div className="item"></div>
-  <div className="item"></div>
-  <div className="item"></div>
-  <div className="item">
-    <div className="direct-child"></div>
-    <div className="direct-child"></div>
-    <div className="direct-child"></div>
-    <div className="direct-child"></div>
-    <div className="direct-child"></div>
-    <div className="direct-child">
-      <div className="grand-child"></div>
-      <div className="grand-child"></div>
-      <div className="grand-child"></div>
-      <div className="grand-child"></div>
-      <div className="grand-child"></div>
-      <div className="grand-child"></div>
-      <div className="grand-child"></div>
-      <div className="grand-child"></div>
-      <div className="grand-child">
-        <div className="grand-grand-child"></div>
-        <div className="grand-grand-child"></div>
-        <div className="grand-grand-child"></div>
-        <div className="grand-grand-child"></div>
-        <div className="grand-grand-child"></div>
-        <div className="grand-grand-child"></div>
-        <div className="grand-grand-child"></div>
-        <div className="grand-grand-child"></div>
-        <div className="grand-grand-child"></div>
-      </div>
+  return (
+    <div className="container">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+      <div class="item">Item 4</div>
+      <div class="item">Item 5</div>
+      <div class="item">Item 6</div>
+      <div class="item">Item 7</div>
+      <div class="item">Item 8</div>
+      <div class="item">Item 9</div>
     </div>
-  </div>
-  <div className="item"></div>
-  <button className="item"
-  onMouseLeave={(e)=>e.target.style['background']="steelblue"}  
-  onMouseEnter={(e)=>e.target.style['background']="black"}>x</button>
-</div>
-);
+  );
 }
 
 export default App;
